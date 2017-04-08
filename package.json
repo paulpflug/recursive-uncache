@@ -1,0 +1,40 @@
+{
+  "name": "recursive-uncache",
+  "description": "recursively uncache required files",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paulpflug/",
+  "author": {
+    "name": "Paul Pflugradt",
+    "email": "paul.pflugradt@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulpflug/recursive-uncache"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "main": "uncache.js",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.12.4"
+  },
+  "keywords": [
+    "require",
+    "uncache",
+    "recursive"
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "coffee --no-header --compile --output ./ src/*.coffee",
+    "dev": "coffee ./dev/server.coffee",
+    "test": "",
+    "preversion": "npm run test",
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags && npm publish"
+  }
+}
