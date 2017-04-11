@@ -16,7 +16,7 @@ npm install --save-dev recursive-uncache
 ```js
 uncache = require("recursive-uncache")
 
-uncache(module,base=".") // module must be a absolute path
+uncache(module,base=".",verbose=false) // module must be a absolute path
 // example with chokidar
 chokidar.watch(["./src"],{ignoreInitial: true})
 .on("all", (ev, filepath) => uncache(filepath))
