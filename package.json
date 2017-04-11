@@ -1,7 +1,7 @@
 {
   "name": "recursive-uncache",
   "description": "recursively uncache required files",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/paulpflug/",
   "author": {
     "name": "Paul Pflugradt",
