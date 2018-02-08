@@ -1,0 +1,14 @@
+devDependencies:
+  coffeescript: 2.2.1
+packages:
+  /coffeescript/2.2.1:
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-UFSs0WDed7ZiQGtWZ401PZnlgnP5jtlr4Gk+aPMTIkFkKY6Kz2gRp+WIu0QzllR30nV2XheicAhKwDJQcor6lg==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  coffeescript: ^2.2.1
